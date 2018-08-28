@@ -1,0 +1,30 @@
+.produtos{
+    width: 100%;
+    height: 35%;
+    background-color: aliceblue;
+    
+}
+
+.produtos h1{
+    font-family: sans-serif;
+    color: #2c2c82;
+    text-align: center;
+    color: #2c2c82;
+    
+}
+#principal li { 
+   display:inline; 
+   float:left; 
+}
+
+#principal li { 
+   display:inline; 
+   float:left; 
+   width:220px; 
+   background-color:#f5f7f9; 
+   padding:5px; 
+   text-align: center; 
+color: #2c2c82;
+   border-right: #a5a7aa solid 1px; 
+   border-bottom: #a5a7aa solid 1px; 
+} 

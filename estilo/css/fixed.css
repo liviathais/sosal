@@ -1,0 +1,166 @@
+/*ESTILIZAÇÃO GERAL*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+a {
+/* color: white; */
+}
+
+/*INÍCIO TOPO*/
+.topo_fixo {
+    margin-top: 0;
+    background-color: #2c2c82;
+    padding: 5px;
+    position: relative;
+    z-index: auto;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    padding: 0 100px;
+    width: 100%;
+    box-sizing: border-box;
+    background: #fff;
+    z-index: 99;
+    box-shadow: 1
+}
+
+header .logo {
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    float: left;
+    font-weight: bold;
+    background-image: image("estilo/images/logo_cor.png");
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header img{
+    margin-top: 2px;
+    float: left;
+    height: 40px;
+    width: auto;
+}
+
+
+header nav ul li {
+    list-style: none;
+    position: relative;
+}
+
+header nav ul li.sub-menu:before {
+    content: '\f078';
+    font-family: fontAwesome;
+    position: absolute;
+    line-height: 50px;
+    color: #fff;
+    right: 1px;
+}
+
+header nav ul li.active.sub-menu:before {
+    content: '\f077';
+}
+
+header nav ul li ul {
+    position: absolute;
+    left: 0;
+    background: #fff;
+    display: none
+}
+
+header nav ul li.active ul {
+/* use li: hover instead */
+    display: block;
+}
+
+header nav ul li ul li {
+    display: block;
+    width: 200px;
+}
+
+header nav ul li a {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    color: #2c2c82;
+    text-decoration: none;
+    display: block;
+}
+
+header nav ul li a:hover {
+    color: #fff;
+    background: #2c2c82;
+}
+
+header nav ul li a.active {
+    background: #2196f3;
+}
+
+.menu-toggle {
+    color: #2c2c82;
+    float: right;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none
+}
+
+@media (max-width: 860px) {
+    header {
+        padding: 0 20px;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    header nav {
+    /* use display none or left:-100% to hide the nav  */
+    /* display: none; */
+        position: absolute;
+        top: 50px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 50px);
+        background: #fff;
+        transition: 0.5s;
+    }
+    header nav.active {
+        left: 0;
+    }
+    header nav ul {
+        display: block;
+        text-align: center;
+    }
+    header nav ul li a {
+        border-bottom: 0.9px solid rgba(0, 0, 0, .2);
+    }
+    header nav ul li.active ul {
+        position: relative;
+        background: #fff;
+    }
+    header nav ul li ul li {
+        width: 100%;
+    }
+}
+
+/**FIM TOPO/
+
+
+
+/* INÍCIO FOOTER */
+
+
+/*FIM FOOTER*/
