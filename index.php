@@ -1,6 +1,6 @@
-    <?php 
+<?php 
     require_once("fixed.php");
-    ?>
+?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -170,8 +170,10 @@
         <!-- FIM WIDGETS NOTICIAS AGRICOLAS - www.noticiasagricolas.com.br/widgets  -->
 
         <!-- WIDGETS PREVISÃO DO TEMPO CPTEC/INPE -->
+                <div class="previsao">
             <iframe allowtransparency="true" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" src="https://www.cptec.inpe.br/widget/widget.php?p=225&w=h&c=748ccc&f=ffffff" height="200px" width="215px"></iframe>
             <noscript>Previs&atilde;o de <a href="http://www.cptec.inpe.br/cidades/tempo/225">Campo Grande/MS</a> oferecido por <a href="http://www.cptec.inpe.br">CPTEC/INPE</a></noscript>
+                </div>
             </div>
         <!-- FIM WIDGETS PREVISÃO DO TEMPO CPTEC/INPE -->
 <!--FIM WIDGETS-->

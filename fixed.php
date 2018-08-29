@@ -22,7 +22,7 @@
             <li class="sub-menu"><a href="#">Linha Tauro</a></li>    
           </ul>              
         </li>
-        <li><a href="#">Contato</a></li>
+        <li><a href="contato.php">Contato</a></li>
         <li><a href="#">Blog</a></li>
       </ul>
     </nav>

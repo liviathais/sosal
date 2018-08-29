@@ -60,3 +60,10 @@
 <!-- Javascripts
     ================================================== --> 
 <script type="text/javascript" src="estilo/prod/js/main.js"></script>
+    
+    <!--CONTATO-->
+    <script type="text/javascript" src="estilo/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="estilo/js/jquery.maskedinput.min.js"></script>
+    <script type="text/javascript" src="estilo/js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="estilo/js/jquery.zebra-datepicker.js"></script>
+    <link rel="stylesheet" href="estilo/css/contato.css">

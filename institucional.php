@@ -6,9 +6,10 @@ require_once("fixed.php");
 
 <ul class="linha-do-tempo">
 <div class="marcador"></div>
-<li class="ano"><p>2016</p></li>
- 
+<li class="ano"><p>1980</p></li>
+<!-- <img src="estilo/images/so_sal_antigo.jpeg">-->
 <li class='item' href="#">
+    <img src="estilo/images/so_sal_antigo.jpeg" width="300">
 <p>Primeiro Item da linha do tempo, pode incluir qualquer coisa aqui, desde imagens, a frames, é totalmente responsivo.</p> 
 </li>
 <li class='item' href="#">
